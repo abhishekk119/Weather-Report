@@ -1,0 +1,122 @@
+.weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+#cityinput {
+  height: 50px;
+  width: 300px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.location {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.weather-temp {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+.Weather-icon {
+  color: blue;
+  font-size: 40px;
+}
+
+.temp {
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.weather-description {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.weather-humidity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.weather-wind {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.humidity-and-wind-container {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  padding: 20px;
+}
+
+.humidity-icon {
+  font-size: 25px;
+  color: blue;
+}
+
+.wind-icon {
+  font-size: 25px;
+  color: blue;
+}
+
+.weather-feelslike {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.feelslike-icon {
+  font-size: 25px;
+  color: blue;
+}
+
+.humidity {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.wind {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.feels-like {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.forecast-element {
+  border-radius: 10px;
+  background-color: rgb(131, 131, 253);
+  color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 100px;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.forecast {
+  width: 400px;
+  flex-wrap: wrap; /* Allow items to wrap if they exceed container width */
+  justify-content: center; /* Center items horizontally */
+}
+
+.weather-wrapper h1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
