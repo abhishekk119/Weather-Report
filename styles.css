@@ -120,3 +120,61 @@
 .weather-wrapper h1 {
   font-family: "Roboto Condensed", sans-serif;
 }
+
+/* Mobile Responsive Styles (up to 767px) */
+@media only screen and (max-width: 767px) {
+  .weather-wrapper {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  #cityinput {
+    width: 80%; /* Make input field responsive */
+    max-width: 300px; /* Prevent it from becoming too wide */
+    margin: 10px 0; /* Adjust margin */
+  }
+
+  .location {
+    font-size: 24px; /* Slightly smaller font */
+  }
+
+  .temp {
+    font-size: 40px; /* Reduce temperature font size */
+  }
+
+  .weather-description {
+    font-size: 16px; /* Smaller description text */
+  }
+
+  .humidity-and-wind-container {
+    width: 100%; /* Full width for humidity/wind container */
+     /* Stack humidity and wind vertically */
+    gap: 10px; /* Add space between stacked items */
+    padding: 30px;/* Adjust padding */
+  }
+
+  .forecast {
+    width: 100%; /* Full width for forecast container */
+    /* Stack forecast items vertically */
+    align-items: center; /* Center forecast cards */
+  }
+
+  .forecast-element {
+     /* Wider forecast cards for better touch */
+    min-width: 0; /* Override fixed min-width */
+    margin: 5px 0; /* Adjust margin */
+    font-size: 16px; /* Smaller font for forecast */
+  }
+
+  /* Adjust icon sizes */
+  .Weather-icon,
+  .humidity-icon,
+  .wind-icon,
+  .feelslike-icon {
+    font-size: 30px; /* Slightly smaller icons */
+  }
+  
+  .weather-feelslike {
+  	padding: 20px;
+  	}
+}
+
